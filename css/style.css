@@ -1,0 +1,213 @@
+/* ================================= 
+全局设置
+==================================== */
+
+* {
+	box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ================================= 
+移动优先设置
+==================================== */
+
+h2, h3, p {
+    color: white;
+    text-shadow: gray .5px .5px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.main-header {
+    text-align: center;
+    background-color: red;
+    padding-bottom: 1em;
+}
+
+.main-header a {
+    color: azure;
+}
+
+h1 {
+    margin: 0;
+    padding: .5em 0;
+}
+
+.main-nav li:hover {
+    background-color: yellow;
+    transition: .2s;
+}
+
+.main-nav a {
+    display: block;
+    padding: 1em 0;
+}
+
+.container {
+    min-height: calc(100vh - 37.48px);
+}
+
+footer {
+    text-align: center;
+    padding: .5em 0;
+    background-color: black;
+}
+
+.col {
+    text-align: center;
+    margin: 3em 0;
+    padding: 1.5em 0;
+    color: white;
+    box-shadow: gray 1px .5px;
+}
+
+.banner {
+    background-color: purple;
+    padding-top: 0px;
+    background: url(../images/1462718327.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    height: 500px;
+
+}
+
+       
+
+
+p {
+    text-align: justify;
+    padding: 0 1em;
+    line-height: 1.4;
+}
+
+.logo {
+    display: block;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.html {
+    background-color: pink;
+     background: url(../images/img-1fc536266d4d91dcdf3a03c194d4db65.jpg);
+    background-size:auto;
+    height: 400px;
+    
+}
+
+.css {
+    background-color: #3BA3D0;
+    background: url(../images/IMG_2298.JPG);
+    background-size: auto;
+    height: 1200px;
+    }
+
+.javascript {
+    background-color: #FDAF4C;
+    background: url(../images/img-f55939b787c148b0b2e94bed2025851d.jpg);
+    background-size: auto;
+    height: 420px;
+}
+
+.html, .css, .javascript {
+    position: relative;
+}
+
+.html:hover, .javascript:hover, .css:hover {
+    box-shadow: gray 3px 3px 3px;
+    transition: .3s;
+}
+
+.html:active, .javascript:active, .css:active {
+    top: 1px;
+    left: 2px;
+}
+
+/* ================================= 
+视窗宽度为700时，进行运行以下规则
+==================================== */
+
+/*
+@media (min-width: 700px) {
+    
+    .main-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+        align-items: center;
+        padding: 1em 0;
+    }
+    
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main-nav li {
+        border-radius: 15px;
+    }
+    
+    .main-nav li a {
+        padding: 1em 2em;   
+    }
+    
+    h1 {
+        padding: 0;
+    }
+    
+    .wrap {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+ba
+    }
+    
+    .html, .css, .javascript {
+        flex-basis: 30%;
+        flex-grow: 1;
+    }
+    
+    .col {
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 10px;
+    }
+    
+    .banner {
+        border-radius: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: .5em;
+    }
+    
+    
+    .logo {
+        width: 500px;  
+        margin-top: 0;
+    }
+    
+    h2 {
+        font-size: 2em;
+        margin: 0;
+        
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+    
+    .banner p {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    
+    
+    
+}   */
